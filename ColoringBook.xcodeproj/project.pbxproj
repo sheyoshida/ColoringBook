@@ -15,6 +15,7 @@
 		4D4719FC1BA5F3C40014C872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4719FA1BA5F3C40014C872 /* LaunchScreen.storyboard */; };
 		4D471A071BA5F3C40014C872 /* ColoringBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D471A061BA5F3C40014C872 /* ColoringBookTests.m */; };
 		4D471A121BA5F3C40014C872 /* ColoringBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D471A111BA5F3C40014C872 /* ColoringBookUITests.m */; };
+		4D471A211BA5F9290014C872 /* ColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D471A201BA5F9290014C872 /* ColorPickerViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		4D471A0D1BA5F3C40014C872 /* ColoringBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColoringBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D471A111BA5F3C40014C872 /* ColoringBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColoringBookUITests.m; sourceTree = "<group>"; };
 		4D471A131BA5F3C40014C872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D471A1F1BA5F9290014C872 /* ColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerViewController.h; sourceTree = "<group>"; };
+		4D471A201BA5F9290014C872 /* ColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerViewController.m; sourceTree = "<group>"; };
+		4D471A221BA601820014C872 /* ColorPickerViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerViewControllerDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +109,10 @@
 				4D4719F01BA5F3C40014C872 /* AppDelegate.m */,
 				4D4719F21BA5F3C40014C872 /* ViewController.h */,
 				4D4719F31BA5F3C40014C872 /* ViewController.m */,
+				4D471A1F1BA5F9290014C872 /* ColorPickerViewController.h */,
+				4D471A201BA5F9290014C872 /* ColorPickerViewController.m */,
 				4D4719F51BA5F3C40014C872 /* Main.storyboard */,
+				4D471A221BA601820014C872 /* ColorPickerViewControllerDelegate.h */,
 				4D4719F81BA5F3C40014C872 /* Assets.xcassets */,
 				4D4719FA1BA5F3C40014C872 /* LaunchScreen.storyboard */,
 				4D4719FD1BA5F3C40014C872 /* Info.plist */,
@@ -275,6 +282,7 @@
 			files = (
 				4D4719F41BA5F3C40014C872 /* ViewController.m in Sources */,
 				4D4719F11BA5F3C40014C872 /* AppDelegate.m in Sources */,
+				4D471A211BA5F9290014C872 /* ColorPickerViewController.m in Sources */,
 				4D4719EE1BA5F3C40014C872 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
