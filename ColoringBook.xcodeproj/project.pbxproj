@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D4719EE1BA5F3C40014C872 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4719ED1BA5F3C40014C872 /* main.m */; };
+		4D4719F11BA5F3C40014C872 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4719F01BA5F3C40014C872 /* AppDelegate.m */; };
+		4D4719F41BA5F3C40014C872 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4719F31BA5F3C40014C872 /* ViewController.m */; };
+		4D4719F71BA5F3C40014C872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4719F51BA5F3C40014C872 /* Main.storyboard */; };
+		4D4719F91BA5F3C40014C872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4719F81BA5F3C40014C872 /* Assets.xcassets */; };
+		4D4719FC1BA5F3C40014C872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4719FA1BA5F3C40014C872 /* LaunchScreen.storyboard */; };
+		4D471A071BA5F3C40014C872 /* ColoringBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D471A061BA5F3C40014C872 /* ColoringBookTests.m */; };
+		4D471A121BA5F3C40014C872 /* ColoringBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D471A111BA5F3C40014C872 /* ColoringBookUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D471A031BA5F3C40014C872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D4719E11BA5F3C40014C872 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D4719E81BA5F3C40014C872;
+			remoteInfo = ColoringBook;
+		};
+		4D471A0E1BA5F3C40014C872 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D4719E11BA5F3C40014C872 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D4719E81BA5F3C40014C872;
+			remoteInfo = ColoringBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D4719E91BA5F3C40014C872 /* ColoringBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColoringBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D4719ED1BA5F3C40014C872 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D4719EF1BA5F3C40014C872 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D4719F01BA5F3C40014C872 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D4719F21BA5F3C40014C872 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D4719F31BA5F3C40014C872 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D4719F61BA5F3C40014C872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D4719F81BA5F3C40014C872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D4719FB1BA5F3C40014C872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D4719FD1BA5F3C40014C872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D471A021BA5F3C40014C872 /* ColoringBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColoringBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D471A061BA5F3C40014C872 /* ColoringBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColoringBookTests.m; sourceTree = "<group>"; };
+		4D471A081BA5F3C40014C872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D471A0D1BA5F3C40014C872 /* ColoringBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColoringBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D471A111BA5F3C40014C872 /* ColoringBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColoringBookUITests.m; sourceTree = "<group>"; };
+		4D471A131BA5F3C40014C872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D4719E61BA5F3C40014C872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D4719FF1BA5F3C40014C872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D471A0A1BA5F3C40014C872 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D4719E01BA5F3C40014C872 = {
+			isa = PBXGroup;
+			children = (
+				4D4719EB1BA5F3C40014C872 /* ColoringBook */,
+				4D471A051BA5F3C40014C872 /* ColoringBookTests */,
+				4D471A101BA5F3C40014C872 /* ColoringBookUITests */,
+				4D4719EA1BA5F3C40014C872 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D4719EA1BA5F3C40014C872 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D4719E91BA5F3C40014C872 /* ColoringBook.app */,
+				4D471A021BA5F3C40014C872 /* ColoringBookTests.xctest */,
+				4D471A0D1BA5F3C40014C872 /* ColoringBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D4719EB1BA5F3C40014C872 /* ColoringBook */ = {
+			isa = PBXGroup;
+			children = (
+				4D4719EF1BA5F3C40014C872 /* AppDelegate.h */,
+				4D4719F01BA5F3C40014C872 /* AppDelegate.m */,
+				4D4719F21BA5F3C40014C872 /* ViewController.h */,
+				4D4719F31BA5F3C40014C872 /* ViewController.m */,
+				4D4719F51BA5F3C40014C872 /* Main.storyboard */,
+				4D4719F81BA5F3C40014C872 /* Assets.xcassets */,
+				4D4719FA1BA5F3C40014C872 /* LaunchScreen.storyboard */,
+				4D4719FD1BA5F3C40014C872 /* Info.plist */,
+				4D4719EC1BA5F3C40014C872 /* Supporting Files */,
+			);
+			path = ColoringBook;
+			sourceTree = "<group>";
+		};
+		4D4719EC1BA5F3C40014C872 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D4719ED1BA5F3C40014C872 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D471A051BA5F3C40014C872 /* ColoringBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D471A061BA5F3C40014C872 /* ColoringBookTests.m */,
+				4D471A081BA5F3C40014C872 /* Info.plist */,
+			);
+			path = ColoringBookTests;
+			sourceTree = "<group>";
+		};
+		4D471A101BA5F3C40014C872 /* ColoringBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D471A111BA5F3C40014C872 /* ColoringBookUITests.m */,
+				4D471A131BA5F3C40014C872 /* Info.plist */,
+			);
+			path = ColoringBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D4719E81BA5F3C40014C872 /* ColoringBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D471A161BA5F3C40014C872 /* Build configuration list for PBXNativeTarget "ColoringBook" */;
+			buildPhases = (
+				4D4719E51BA5F3C40014C872 /* Sources */,
+				4D4719E61BA5F3C40014C872 /* Frameworks */,
+				4D4719E71BA5F3C40014C872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColoringBook;
+			productName = ColoringBook;
+			productReference = 4D4719E91BA5F3C40014C872 /* ColoringBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D471A011BA5F3C40014C872 /* ColoringBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D471A191BA5F3C40014C872 /* Build configuration list for PBXNativeTarget "ColoringBookTests" */;
+			buildPhases = (
+				4D4719FE1BA5F3C40014C872 /* Sources */,
+				4D4719FF1BA5F3C40014C872 /* Frameworks */,
+				4D471A001BA5F3C40014C872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D471A041BA5F3C40014C872 /* PBXTargetDependency */,
+			);
+			name = ColoringBookTests;
+			productName = ColoringBookTests;
+			productReference = 4D471A021BA5F3C40014C872 /* ColoringBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D471A0C1BA5F3C40014C872 /* ColoringBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D471A1C1BA5F3C40014C872 /* Build configuration list for PBXNativeTarget "ColoringBookUITests" */;
+			buildPhases = (
+				4D471A091BA5F3C40014C872 /* Sources */,
+				4D471A0A1BA5F3C40014C872 /* Frameworks */,
+				4D471A0B1BA5F3C40014C872 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D471A0F1BA5F3C40014C872 /* PBXTargetDependency */,
+			);
+			name = ColoringBookUITests;
+			productName = ColoringBookUITests;
+			productReference = 4D471A0D1BA5F3C40014C872 /* ColoringBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D4719E11BA5F3C40014C872 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Shena Yoshida";
+				TargetAttributes = {
+					4D4719E81BA5F3C40014C872 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 5F2A5ZZ575;
+					};
+					4D471A011BA5F3C40014C872 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 5F2A5ZZ575;
+						TestTargetID = 4D4719E81BA5F3C40014C872;
+					};
+					4D471A0C1BA5F3C40014C872 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 5F2A5ZZ575;
+						TestTargetID = 4D4719E81BA5F3C40014C872;
+					};
+				};
+			};
+			buildConfigurationList = 4D4719E41BA5F3C40014C872 /* Build configuration list for PBXProject "ColoringBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D4719E01BA5F3C40014C872;
+			productRefGroup = 4D4719EA1BA5F3C40014C872 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D4719E81BA5F3C40014C872 /* ColoringBook */,
+				4D471A011BA5F3C40014C872 /* ColoringBookTests */,
+				4D471A0C1BA5F3C40014C872 /* ColoringBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D4719E71BA5F3C40014C872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4719FC1BA5F3C40014C872 /* LaunchScreen.storyboard in Resources */,
+				4D4719F91BA5F3C40014C872 /* Assets.xcassets in Resources */,
+				4D4719F71BA5F3C40014C872 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D471A001BA5F3C40014C872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D471A0B1BA5F3C40014C872 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D4719E51BA5F3C40014C872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4719F41BA5F3C40014C872 /* ViewController.m in Sources */,
+				4D4719F11BA5F3C40014C872 /* AppDelegate.m in Sources */,
+				4D4719EE1BA5F3C40014C872 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D4719FE1BA5F3C40014C872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D471A071BA5F3C40014C872 /* ColoringBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D471A091BA5F3C40014C872 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D471A121BA5F3C40014C872 /* ColoringBookUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D471A041BA5F3C40014C872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D4719E81BA5F3C40014C872 /* ColoringBook */;
+			targetProxy = 4D471A031BA5F3C40014C872 /* PBXContainerItemProxy */;
+		};
+		4D471A0F1BA5F3C40014C872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D4719E81BA5F3C40014C872 /* ColoringBook */;
+			targetProxy = 4D471A0E1BA5F3C40014C872 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D4719F51BA5F3C40014C872 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D4719F61BA5F3C40014C872 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D4719FA1BA5F3C40014C872 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D4719FB1BA5F3C40014C872 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D471A141BA5F3C40014C872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D471A151BA5F3C40014C872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D471A171BA5F3C40014C872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColoringBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenayoshida.ColoringBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4D471A181BA5F3C40014C872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColoringBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenayoshida.ColoringBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4D471A1A1BA5F3C40014C872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ColoringBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenayoshida.ColoringBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColoringBook.app/ColoringBook";
+			};
+			name = Debug;
+		};
+		4D471A1B1BA5F3C40014C872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ColoringBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenayoshida.ColoringBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColoringBook.app/ColoringBook";
+			};
+			name = Release;
+		};
+		4D471A1D1BA5F3C40014C872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ColoringBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenayoshida.ColoringBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ColoringBook;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4D471A1E1BA5F3C40014C872 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ColoringBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shenayoshida.ColoringBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ColoringBook;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D4719E41BA5F3C40014C872 /* Build configuration list for PBXProject "ColoringBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D471A141BA5F3C40014C872 /* Debug */,
+				4D471A151BA5F3C40014C872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D471A161BA5F3C40014C872 /* Build configuration list for PBXNativeTarget "ColoringBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D471A171BA5F3C40014C872 /* Debug */,
+				4D471A181BA5F3C40014C872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D471A191BA5F3C40014C872 /* Build configuration list for PBXNativeTarget "ColoringBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D471A1A1BA5F3C40014C872 /* Debug */,
+				4D471A1B1BA5F3C40014C872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D471A1C1BA5F3C40014C872 /* Build configuration list for PBXNativeTarget "ColoringBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D471A1D1BA5F3C40014C872 /* Debug */,
+				4D471A1E1BA5F3C40014C872 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D4719E11BA5F3C40014C872 /* Project object */;
+}
